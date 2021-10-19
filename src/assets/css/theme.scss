@@ -1,0 +1,15 @@
+$bgColor:#D93025; // 主题颜色
+$darkRed:#DA1801; // 暗红色
+$fontSize30: 30px;
+$fontSize28: 28px;
+$fontSize26: 26px;
+$fontSize24: 24px;
+//多行超出省略
+@mixin lineClamp ($line : 2){
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
