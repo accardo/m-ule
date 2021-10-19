@@ -12,6 +12,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-config": "^5.0.3",
+    "fetch-jsonp": "^1.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-config": "^5.1.1",
@@ -21,7 +22,9 @@
   },
   "scripts": {
     "start": "craco start --mode development",
-    "build": "craco build --mode production",
+    "beta": "craco build --mode beta",
+    "testing": "craco build --mode testing",
+    "build": "craco build --mode prd",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
